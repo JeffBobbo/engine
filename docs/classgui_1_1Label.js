@@ -3,6 +3,7 @@ var classgui_1_1Label =
     [ "Label", "classgui_1_1Label.html#addb92b228cf58df38d5c87f32ef9793d", null ],
     [ "~Label", "classgui_1_1Label.html#a35fe2fbca1f6c34beb66bfd9b3b9b609", null ],
     [ "draw", "classgui_1_1Label.html#a2296b9d6cbc0ede3167f8f0f48f987ce", null ],
+    [ "idle", "classgui_1_1Label.html#a868143d55f353e68ab6eda64db24931f", null ],
     [ "setColour", "classgui_1_1Label.html#af93b8e419f6bdcb17d0b87875785502f", null ],
     [ "setHAlignment", "classgui_1_1Label.html#a99a6c9a4220d3aaed5619d74414bbd9f", null ],
     [ "setSize", "classgui_1_1Label.html#ad24a46a594e2c69db603a19744260235", null ],

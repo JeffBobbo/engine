@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>engine: Face Struct Reference</title>
+<title>engine: engine::util::weightedlist_t&lt; T &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -84,7 +84,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('structFace.html','');});
+$(document).ready(function(){initNavTree('classengine_1_1util_1_1weightedlist__t.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -103,35 +103,53 @@ $(document).ready(function(){initNavTree('structFace.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="structFace-members.html">List of all members</a>  </div>
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classengine_1_1util_1_1weightedlist__t-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Face Struct Reference</div>  </div>
+<div class="title">engine::util::weightedlist_t&lt; T &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:afbd74d398c93bf87e1f07940610a6a55"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afbd74d398c93bf87e1f07940610a6a55"></a>
-std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>vIndicies</b> [3]</td></tr>
-<tr class="separator:afbd74d398c93bf87e1f07940610a6a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71bf4218ad40a2e95230e94ab7f781de"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a71bf4218ad40a2e95230e94ab7f781de"></a>
-std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>tIndicies</b> [3]</td></tr>
-<tr class="separator:a71bf4218ad40a2e95230e94ab7f781de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8d5f29e3e7e54f50d6ed2a44546bea2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad8d5f29e3e7e54f50d6ed2a44546bea2"></a>
-std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>nIndicies</b> [3]</td></tr>
-<tr class="separator:ad8d5f29e3e7e54f50d6ed2a44546bea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aa7347c4461ae5ea7301caa7ad2336ce8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa7347c4461ae5ea7301caa7ad2336ce8"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>empty</b> () const </td></tr>
+<tr class="separator:aa7347c4461ae5ea7301caa7ad2336ce8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a218adea355f5352426933a706641b1bc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a218adea355f5352426933a706641b1bc"></a>
+size_t&#160;</td><td class="memItemRight" valign="bottom"><b>size</b> () const </td></tr>
+<tr class="separator:a218adea355f5352426933a706641b1bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafa8b11755074e1ea78915d748e67f5c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aafa8b11755074e1ea78915d748e67f5c"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>weight</b> () const </td></tr>
+<tr class="separator:aafa8b11755074e1ea78915d748e67f5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53e943dc796d0aa9a7a4326d8c8d2840"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a53e943dc796d0aa9a7a4326d8c8d2840"></a>
+const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>choose</b> () const </td></tr>
+<tr class="separator:a53e943dc796d0aa9a7a4326d8c8d2840"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6a689e739ed610dcaaf9bb00c98eb95"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad6a689e739ed610dcaaf9bb00c98eb95"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>insert</b> (const double weight, const T &amp;t)</td></tr>
+<tr class="separator:ad6a689e739ed610dcaaf9bb00c98eb95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93fa27c811c8b80ab9e383bf6300c06f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a93fa27c811c8b80ab9e383bf6300c06f"></a>
+std::vector&lt; std::pair&lt; double, <br class="typebreak"/>
+T &gt; &gt;::iterator&#160;</td><td class="memItemRight" valign="bottom"><b>begin</b> () const </td></tr>
+<tr class="separator:a93fa27c811c8b80ab9e383bf6300c06f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f28210dbf521bb701b0f116814f42b2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6f28210dbf521bb701b0f116814f42b2"></a>
+std::vector&lt; std::pair&lt; double, <br class="typebreak"/>
+T &gt; &gt;::iterator&#160;</td><td class="memItemRight" valign="bottom"><b>end</b> () const </td></tr>
+<tr class="separator:a6f28210dbf521bb701b0f116814f42b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb1450ade131b07af944b27c489f9a0d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acb1450ade131b07af944b27c489f9a0d"></a>
+std::vector&lt; std::pair&lt; double, <br class="typebreak"/>
+T &gt; &gt;::iterator&#160;</td><td class="memItemRight" valign="bottom"><b>erase</b> (typename std::vector&lt; std::pair&lt; double, T &gt; &gt;::iterator it) const </td></tr>
+<tr class="separator:acb1450ade131b07af944b27c489f9a0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/>The documentation for this struct was generated from the following file:<ul>
-<li>engine/meshmanager.cpp</li>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>engine/util/<a class="el" href="weightedlist_8h_source.html">weightedlist.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="structFace.html">Face</a></li>
-    <li class="footer">Generated on Sun Apr 1 2018 16:54:26 for engine by
+    <li class="navelem"><b>engine</b></li><li class="navelem"><b>util</b></li><li class="navelem"><a class="el" href="classengine_1_1util_1_1weightedlist__t.html">weightedlist_t</a></li>
+    <li class="footer">Generated on Fri May 25 2018 13:52:44 for engine by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

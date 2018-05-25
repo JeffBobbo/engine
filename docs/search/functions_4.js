@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['operator_20bool',['operator bool',['../classangle__t.html#a42e48e83d6078fcbf4311580ab947508',1,'angle_t']]],
-  ['operator_25',['operator%',['../classangle__t.html#af25cbc6500349f4ac4c829ca5e99b797',1,'angle_t']]],
-  ['operator_25_3d',['operator%=',['../classangle__t.html#a8448589a80aef4906225c4270710855e',1,'angle_t']]],
-  ['operator_3c',['operator&lt;',['../classangle__t.html#ab71af2ade09e771f1bebbc940cd688e2',1,'angle_t']]],
-  ['operator_3d_3d',['operator==',['../classangle__t.html#ad890dcdc1aa3ec999c1f5f77fbf384de',1,'angle_t']]]
+  ['interval_5ft',['interval_t',['../classinterval__t.html#aa22c5b68f9e0f2f74c76159c9f88193d',1,'interval_t::interval_t()'],['../classinterval__t.html#a5f5c8204f347206b5a09953f22742919',1,'interval_t::interval_t(const millis_t d)']]],
+  ['isoff',['isOff',['../classinterval__t.html#a96f38b2cbf15a258a9a2a14c249639af',1,'interval_t']]],
+  ['ison',['isOn',['../classinterval__t.html#ac86c685d4cf09be5eb54e03fdb52563c',1,'interval_t']]],
+  ['istime',['isTime',['../classinterval__t.html#a8113c70fa672fc4a8af6d494f53f26b5',1,'interval_t']]]
 ];

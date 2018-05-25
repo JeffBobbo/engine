@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>engine: engine/util/perlin.h Source File</title>
+<title>engine: engine::util::stopwatch_t Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -44,8 +44,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="annotated.html"><span>Classes</span></a></li>
-      <li class="current"><a href="files.html"><span>Files</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -66,7 +66,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="files.html"><span>File&#160;List</span></a></li>
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -81,7 +84,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('perlin_8h_source.html','');});
+$(document).ready(function(){initNavTree('classengine_1_1util_1_1stopwatch__t.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -99,38 +102,36 @@ $(document).ready(function(){initNavTree('perlin_8h_source.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classengine_1_1util_1_1stopwatch__t-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">perlin.h</div>  </div>
+<div class="title">engine::util::stopwatch_t Class Reference<span class="mlabels"><span class="mlabel">final</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef PERLIN_H_INCLUDE</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define PERLIN_H_INCLUDE</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">const</span> <span class="keywordtype">int</span> P_LENGTH = 512;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
-<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classPerlin.html">    8</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPerlin.html">Perlin</a></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;  <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="classPerlin.html">Perlin</a>(int16_t seed);</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    ~<a class="code" href="classPerlin.html">Perlin</a>() {};</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;  <span class="keywordtype">double</span> noise(<span class="keywordtype">double</span> x, <span class="keywordtype">double</span> y, <span class="keywordtype">double</span> z);</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordtype">int</span> p[P_LENGTH];</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;};</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="classPerlin_html"><div class="ttname"><a href="classPerlin.html">Perlin</a></div><div class="ttdef"><b>Definition:</b> perlin.h:8</div></div>
-</div><!-- fragment --></div><!-- contents -->
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:af3066c1e9d2b2989ad0366d0dbb9689b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af3066c1e9d2b2989ad0366d0dbb9689b"></a>
+<a class="el" href="classengine_1_1util_1_1stopwatch__t.html">stopwatch_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>start</b> ()</td></tr>
+<tr class="separator:af3066c1e9d2b2989ad0366d0dbb9689b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bf9b130b46c38f40bafcf13aeb535c1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1bf9b130b46c38f40bafcf13aeb535c1"></a>
+<a class="el" href="classengine_1_1util_1_1stopwatch__t.html">stopwatch_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>end</b> ()</td></tr>
+<tr class="separator:a1bf9b130b46c38f40bafcf13aeb535c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9a7c7dfb299eb154974516615cecf39"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad9a7c7dfb299eb154974516615cecf39"></a>
+uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>getElapsedTime</b> ()</td></tr>
+<tr class="separator:ad9a7c7dfb299eb154974516615cecf39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>engine/util/<a class="el" href="stopwatch_8h_source.html">stopwatch.h</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_996f45160da62e1a3d7f6046fad68f51.html">engine</a></li><li class="navelem"><a class="el" href="dir_e3ae55271edb648fb32b969ad2836458.html">util</a></li><li class="navelem"><b>perlin.h</b></li>
-    <li class="footer">Generated on Sun Apr 1 2018 16:54:26 for engine by
+    <li class="navelem"><b>engine</b></li><li class="navelem"><b>util</b></li><li class="navelem"><a class="el" href="classengine_1_1util_1_1stopwatch__t.html">stopwatch_t</a></li>
+    <li class="footer">Generated on Fri May 25 2018 13:52:44 for engine by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

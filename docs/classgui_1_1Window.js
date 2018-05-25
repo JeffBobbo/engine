@@ -7,6 +7,7 @@ var classgui_1_1Window =
     [ "draw", "classgui_1_1Window.html#a3413f81e8ab56764858dbdff9dfb9cc8", null ],
     [ "end", "classgui_1_1Window.html#aead0493c77d406a196001a57f243e8fb", null ],
     [ "getChildren", "classgui_1_1Window.html#abd6bcd7d25e0eb9385263b7304d4bc95", null ],
+    [ "idle", "classgui_1_1Window.html#a06b29e2e88dd6aad6a464f83b50a5312", null ],
     [ "onEvent", "classgui_1_1Window.html#ae035f771299e775dccb218dcba9806f3", null ],
     [ "removeChildren", "classgui_1_1Window.html#a2960ca05eea5863788e87488f169d4ef", null ],
     [ "setColour", "classgui_1_1Window.html#a7c38743df61582935bfaac399a909b74", null ],

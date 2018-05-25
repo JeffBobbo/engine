@@ -1,6 +1,10 @@
 var annotated =
 [
     [ "engine", null, [
+      [ "util", null, [
+        [ "stopwatch_t", "classengine_1_1util_1_1stopwatch__t.html", "classengine_1_1util_1_1stopwatch__t" ],
+        [ "weightedlist_t", "classengine_1_1util_1_1weightedlist__t.html", "classengine_1_1util_1_1weightedlist__t" ]
+      ] ],
       [ "Shader", "classengine_1_1Shader.html", "classengine_1_1Shader" ],
       [ "ShaderManager", "classengine_1_1ShaderManager.html", "classengine_1_1ShaderManager" ],
       [ "Program", "classengine_1_1Program.html", "classengine_1_1Program" ],
@@ -26,9 +30,6 @@ var annotated =
     [ "Camera", "classCamera.html", "classCamera" ],
     [ "Event", "classEvent.html", "classEvent" ],
     [ "EventReceiver", "classEventReceiver.html", "classEventReceiver" ],
-    [ "Face", "structFace.html", "structFace" ],
-    [ "Font", "classFont.html", "classFont" ],
-    [ "FontManager", "classFontManager.html", "classFontManager" ],
     [ "HSVA", "structHSVA.html", "structHSVA" ],
     [ "interval_t", "classinterval__t.html", "classinterval__t" ],
     [ "Matrix", "classMatrix.html", "classMatrix" ],
@@ -39,10 +40,8 @@ var annotated =
     [ "OctreeNode", "classOctreeNode.html", "classOctreeNode" ],
     [ "Particle", "structParticle.html", "structParticle" ],
     [ "ParticleSystem", "classParticleSystem.html", "classParticleSystem" ],
-    [ "Perlin", "classPerlin.html", "classPerlin" ],
     [ "Texture", "classTexture.html", "classTexture" ],
     [ "TextureManager", "classTextureManager.html", "classTextureManager" ],
-    [ "VertexTriplet", "structVertexTriplet.html", "structVertexTriplet" ],
     [ "Visage", "classVisage.html", "classVisage" ],
     [ "VisageComplex", "classVisageComplex.html", "classVisageComplex" ],
     [ "VisageMesh", "classVisageMesh.html", "classVisageMesh" ],

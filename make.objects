@@ -18,7 +18,6 @@ engine/gui/window.o
 UTIL=\
 engine/util/colour.o \
 engine/util/matrix.o \
-engine/util/perlin.o \
 engine/util/random.o \
 engine/util/util.o
 
